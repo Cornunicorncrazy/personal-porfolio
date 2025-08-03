@@ -1,0 +1,27 @@
+#about{
+  height: 100vh;
+  padding: 2rem;
+  margin-top: 7vh;
+  border-radius: 10px;
+}
+
+#about h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+}
+
+#about span {
+    color: black;
+    background-color: lightblue;
+    padding: 0.05rem 0.5rem;
+}
+
+#about span:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+}

@@ -2,8 +2,8 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   overflow-y: auto;
   transition: 0.4s ease;
 }
@@ -14,7 +14,7 @@ footer {
   color: gray;
 }
 
-#about, #activities, #contact {
+#activities, #contact {
   height: 100vh;
   padding: 2rem;
   margin-top: 7vh;

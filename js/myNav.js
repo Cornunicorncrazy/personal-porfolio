@@ -1,7 +1,7 @@
 /* Open when someone clicks on the span element */
 function openNav() {
   // changes styles of the body
-  document.body.style.backgroundColor = "white";
+  document.body.style.backgroundColor = "black";
   document.body.style.overflowY = "hidden"; // Prevents scrolling when the nav is open
 
   // changes styles of the openNavButton
@@ -17,12 +17,12 @@ function openNav() {
 /* Close when someone clicks on the "x" symbol inside the overlay */
 function closeNav() {
   // changes styles of the body
-  document.body.style.backgroundColor = "black";
+  document.body.style.backgroundColor = "white";
   document.body.style.overflowY = "auto"; // Allows scrolling when the nav is closed
 
   // changes styles of the openNavButton
-  document.getElementById("openNavButton").style.backgroundColor = "black";
-  document.getElementById("openNavButton").style.color = "white";
+  document.getElementById("openNavButton").style.backgroundColor = "white";
+  document.getElementById("openNavButton").style.color = "black";
 
   // changes styles of the navigation overlay
   document.getElementById("myNav").style.transition = "0.25s";
@@ -33,7 +33,7 @@ function closeNav() {
   setTimeout(() =>  {
   document.getElementById("myNav").style.borderRadius = "100%";
   document.getElementById("myNav").style.transition = "0.4s";
-  document.getElementById("myNav").style.backgroundColor = "white";
+  document.getElementById("myNav").style.backgroundColor = "black";
   document.getElementById("myNav").style.fontSize = "36px";
   document.getElementById("myNav").style.width = "0%";
   }, 400); // Delay
