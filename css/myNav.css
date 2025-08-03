@@ -5,28 +5,19 @@
     height: 7vh;
     position: fixed;
     top:0;
+    transition: 0.4 ease;
 }
+
 #openNav {
     margin-left: 20px; /* Adjust as needed */
     font-size:35px;
     cursor:pointer;
 }
 
-@keyframes tilt-shaking {
-  0% { transform: rotate(0deg); }
-  25% { transform: rotate(5deg); }
-  50% { transform: rotate(0eg); }
-  75% { transform: rotate(-5deg); }
-  100% { transform: rotate(0deg); }
-}
-
-
 #openNav:hover {
     color: gray;
     transition: 0.3s ease-in-out;
-    animation: tilt-shaking 0.25s infinite;
 }
-
 
 
 /* The Overlay (background) */
@@ -48,7 +39,7 @@
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 27%; /* 30% from the top */
+  top: 20%; /* 30% from the top */
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
   margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
@@ -68,9 +59,9 @@
 
 .overlay-content a {
     width: 20vw; /* Set a width for the links */
-    margin: 0 auto; /* Center the links */
+    margin: 35px auto 35px auto;; /* Center the links */
     text-align: center; /* Center text */
-    padding: 15px 0 15px 0; /* Top and bottom padding */
+    padding:20px 0 20px 0; /* Top and bottom padding */
 }
 
 .overlay-content a:hover, .overlay-content a:focus {

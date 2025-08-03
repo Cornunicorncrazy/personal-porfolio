@@ -4,6 +4,8 @@ body {
   padding: 0;
   background: black;
   color: white;
+  overflow-y: auto;
+  transition: 0.4s ease;
 }
 footer {
   text-align: center;
@@ -15,7 +17,7 @@ footer {
 #about, #activities, #contact {
   height: 100vh;
   padding: 2rem;
-  margin-top: 10rem;
+  margin-top: 7vh;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
