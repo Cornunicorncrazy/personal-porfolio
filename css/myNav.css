@@ -1,0 +1,112 @@
+/* Open Navigation button */
+#openNavButton {
+    background-color: black;
+    width: 100vw;
+    height: 7vh;
+    position: fixed;
+    top:0;
+}
+#openNav {
+    margin-left: 20px; /* Adjust as needed */
+    font-size:35px;
+    cursor:pointer;
+}
+#openNav:hover {
+    color: gray;
+    transition: 0.3s ease-in-out;
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 0%;
+  width: 0%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: white;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden; /* Disable vertical scroll */
+  transition: 0.3s; /* 0.4 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  border-radius: 100%; /* Rounded corners */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 27%; /* 30% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: black;
+  display: block; /* Display block instead of inline */
+  transition: 0.4s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+
+.overlay-content a {
+    width: 20vw; /* Set a width for the links */
+    margin: 0 auto; /* Center the links */
+    text-align: center; /* Center text */
+    padding: 15px 0 15px 0; /* Top and bottom padding */
+}
+
+.overlay-content a:hover, .overlay-content a:focus {
+    background-color: black;
+    width: 22vw;
+    color: white;
+    transition: ease-in-out 0.3s;
+    text-shadow: 2px 2px black;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  right: 45px;
+  font-size: 60px;
+}
+
+.overlay .closebtn:hover, .overlay .closebtn:focus {
+  color: gray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-width: 500px) {
+  .overlay a {
+    font-size: 28px
+    }
+
+  .overlay .closebtn {
+    font-size: 50px;
+    right: 35px;
+    }
+
+  .overlay-content a {
+    width: 90vw;
+    margin: 0 auto; /* Center the links */
+    text-align: center; /* Center text */
+    padding: 15px 0 15px 0; /* Top and bottom padding */
+    }
+
+    .overlay-content a:hover, .overlay-content a:focus {
+    background-color: black;
+    width: 100vw;
+    color: white;
+    transition: ease-in-out 0.3s;
+    text-shadow: 2px 2px black;
+}
+}

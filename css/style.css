@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: white;
+}
+footer {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+#about, #activities, #contact {
+  height: 100vh;
+  padding: 2rem;
+  margin-top: 10rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
