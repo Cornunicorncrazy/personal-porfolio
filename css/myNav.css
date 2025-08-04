@@ -6,7 +6,7 @@
     position: fixed;
     top:0;
     transition: 0.3 ease;
-    z-index: 1; /* Sit on top */
+    z-index: 2; /* Sit on top */
 }
 
 #openNav {
@@ -27,7 +27,7 @@
   height: 0%;
   width: 0%;
   position: fixed; /* Stay in place */
-  z-index: 2; /* Sit on top */
+  z-index: 3; /* Sit on top */
   left: 0;
   top: 0;
   background-color: black;
@@ -51,7 +51,7 @@
   padding: 8px;
   text-decoration: none;
   font-family: "Merriweather", serif;
-  font-size: 36px;
+  font-size: 30px;
   color: white;
   display: block; /* Display block instead of inline */
   transition: 0.4s; /* Transition effects on hover (color) */

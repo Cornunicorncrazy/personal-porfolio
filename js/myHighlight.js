@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  const words = ["tìm tòi", "sáng tạo", "khám phá", "âm nhạc"];
-  const bgColors = ["#cceaf7", "#ffeaa7", "#fab1a0", "#b0ff9aff"];
+  const words = ["‎", "tìm tòi", "sáng tạo", "khám phá", "âm nhạc","công nghệ"];
+  const bgColors = ["black" , "#cceaf7", "#ffeaa7", "#fab1a0", "#b0ff9aff", "#ffc1e9ff"];
   let index = 0;
 
   // Get its width in pixels

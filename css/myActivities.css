@@ -1,11 +1,7 @@
-.grid-container {
-  background: white;
-}
-
   .items {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 110h;
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: nowrap;
@@ -14,6 +10,7 @@
     will-change: transform;
     user-select: none;
     cursor: pointer;
+    z-index: 0;
   }
 
   .items.active {
@@ -23,20 +20,15 @@
     transform: scale(1);
   }
 
-.item1 ,.item3, .item5, .item7, .item9 {
-  background-color: aqua;
-}
-
-.item2 ,.item4, .item6, .item8, .item10 {
-  background-color: red;
-}
-
   .item {
     display: inline-block;
     width: 80%;
-    height: 100vh;
+    height: 80vh;
     margin: 2em 1em;
     scroll-snap-align: center;
     transition: all 0.2s;
     cursor: pointer;
+    z-index: 0;
+    border: 1px solid gray;
+    border-radius: 10px;
   }
