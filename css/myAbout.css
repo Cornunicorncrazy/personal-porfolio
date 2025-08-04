@@ -19,7 +19,6 @@
 }
 
 .highlight {
-    position: relative;
     overflow: hidden;
     background: linear-gradient(to left, #cceaf7 100%, transparent 0%);
     background-size: 100% 100%;
