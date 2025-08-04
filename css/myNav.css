@@ -49,6 +49,7 @@
 .overlay a {
   padding: 8px;
   text-decoration: none;
+  font-family: "Merriweather", serif;
   font-size: 36px;
   color: white;
   display: block; /* Display block instead of inline */
