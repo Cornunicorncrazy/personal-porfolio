@@ -13,9 +13,11 @@
   <script src="js/myNav.js" defer></script>
 
   <!-- for this-page-only stylesheets and script  -->
-  <link rel="stylesheet" href="css/myAbout.css" />
+  <link rel="stylesheet" href="css/myAbout.css"/>
+  <link rel="stylesheet" href="css/myActivities.css"/>
 
   <script src="js\myHighlight.js" defer></script>
+  <script src="js\dragToScroll.js" defer></script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +31,7 @@
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
-      <a href="#myNav" onclick="closeNav()">Giới thiệu</a>
+      <a href="#top" onclick="closeNav()">Giới thiệu</a>
       <a href="#activities" onclick="closeNav()">Hoạt động</a>
       <a href="#contact" onclick="closeNav()">Liên hệ</a>
     </div>
@@ -42,12 +44,36 @@
  
 
   <div id="about">
-    <h1>"Xin chào! Em là <span style="font-style: italic;">Phạm Vũ Đạt</span> </h1>
-    <h1>một bạn sinh viên với những sự <span class="highlight" id="adjective">tìm tòi</span>"</h1>
+    <div id="intro">
+      <h1>"Xin chào! Em là <span style="font-style: italic;">Phạm Vũ Đạt</span> </h1>
+      <h1>một người đam mê <span class="highlight" id="adjective">tìm tòi</span>"</h1>
+    </div>
+    <div id="description">
+      <div id="description-1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae quia odit, id tenetur natus totam placeat ducimus incidunt quam ipsum non. Quisquam magnam labore praesentium ullam fuga nulla, quasi qui!
+      </div>
+
+      <div id="description-1">
+
+      </div>
+
+      <div id="description-1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi obcaecati at eius laborum inventore vel cumque fugit nisi quasi, quas accusantium nam blanditiis quisquam explicabo nesciunt voluptate. Molestiae, dolorum ad!
+      </div>
+    </div>
   </div>
 
-  <div id="activities">
-
+  <div id="activities" class="items">
+      <div class="item item1"></div>
+      <div class="item item2"></div>
+      <div class="item item3"></div>
+      <div class="item item4"></div>
+      <div class="item item5"></div>
+      <div class="item item6"></div>
+      <div class="item item7"></div>
+      <div class="item item8"></div>
+      <div class="item item9"></div>
+      <div class="item item10"></div>
   </div>
 
   <div id="contact">

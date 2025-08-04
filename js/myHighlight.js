@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  const words = ["tìm tòi", "sáng tạo", "khám phá", "kiên định"];
+  const words = ["tìm tòi", "sáng tạo", "khám phá", "âm nhạc"];
   const bgColors = ["#cceaf7", "#ffeaa7", "#fab1a0", "#b0ff9aff"];
   let index = 0;
 

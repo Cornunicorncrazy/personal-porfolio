@@ -1,5 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
-  font-family: sans-serif;
+  font-family: "Merriweather", serif; 
   margin: 0;
   padding: 0;
   background: white;
@@ -7,17 +10,10 @@ body {
   overflow-y: auto;
   transition: 0.4s ease;
 }
+
 footer {
   text-align: center;
   margin-top: 5rem;
   font-size: 0.9rem;
   color: gray;
-}
-
-#activities, #contact {
-  height: 100vh;
-  padding: 2rem;
-  margin-top: 7vh;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
 }

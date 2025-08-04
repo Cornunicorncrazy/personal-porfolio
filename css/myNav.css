@@ -5,7 +5,8 @@
     height: 7vh;
     position: fixed;
     top:0;
-    transition: 0.4 ease;
+    transition: 0.3 ease;
+    z-index: 1; /* Sit on top */
 }
 
 #openNav {
@@ -26,13 +27,13 @@
   height: 0%;
   width: 0%;
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 2; /* Sit on top */
   left: 0;
   top: 0;
   background-color: black;
   overflow-x: hidden; /* Disable horizontal scroll */
   overflow-y: hidden; /* Disable vertical scroll */
-  transition: 0.3s; /* 0.4 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  transition: 0.4s; /* 0.4 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
   border-radius: 100%; /* Rounded corners */
 }
 

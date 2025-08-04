@@ -25,7 +25,7 @@ function closeNav() {
   document.getElementById("openNavButton").style.color = "black";
 
   // changes styles of the navigation overlay
-  document.getElementById("myNav").style.transition = "0.25s";
+  document.getElementById("myNav").style.transition = "0.4s";
   document.getElementById("myNav").style.height = "0%";
   document.getElementById("myNav").style.width = "100%";
   document.getElementById("myNav").style.fontSize= "0px";

@@ -1,7 +1,8 @@
 #about{
-  height: 100vh;
+  height: auto;
   padding: 2rem;
-  margin-top: 7vh;
+  margin-top: 22vh;
+  margin-bottom: 10vh;
   border-radius: 10px;
 }
 
@@ -9,7 +10,7 @@
     text-align: center;
     font-size: 3rem;
     font-family: "Merriweather", serif;
-    line-height: 1.5;
+    line-height: 1;
 }
 
 #about span {
@@ -28,6 +29,18 @@
     display: inline-block;
     text-align: center;
 }
+
+#intro {
+    margin-bottom: 40vh;
+}
+
+#description {
+    font-size: 1.2rem;
+    margin-top: 0rem;
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr 1fr;
+}
+
 
 @media screen and (max-width: 600px) {
 }
