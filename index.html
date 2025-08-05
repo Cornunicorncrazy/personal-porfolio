@@ -19,6 +19,8 @@
 
   <script src="js\myHighlight.js" defer></script>
   <script src="js\dragToScroll.js" defer></script>
+    <script src="js\yOffsetScroll.js" defer></script>
+
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,14 +42,14 @@
 
   <div id="openNavButton">
     <!-- Open Navigation Button -->
-    <span id="openNav" onclick="openNav()" onmouseover="openNavButton()">&#9776;</span>
+    <span id="openNav" onclick="openNav()">&#9776;</span>
   </div>
  
 
   <div id="about">
     <div id="intro">
       <h1>"Xin chào! Em là <span style="font-style: italic;">Phạm Vũ Đạt</span> </h1>
-      <h1>một người đam mê <span class="highlight" id="adjective">‎ </span>"</h1>
+      <h1>một người đam mê <span class="highlight" id="adjective"> </span>"</h1>
     </div>
 
   <div id="quote">
@@ -94,10 +96,13 @@
 
 
   <div id="contact">
-    <div>Email: <a href="vudatpham.work@gmail.com">vudatpham.work@gmail.com</a></div>
-    <div>Phone</div>
-    <div>LinkedIn</div>
-    <div>Github</div>
+    <div id="right-contact" class="contact-item">
+      My Name
+    </div>
+
+    <div id="left-contact" class="contact-item">
+      Linkedin
+    </div>
   </div>
   
 </body>

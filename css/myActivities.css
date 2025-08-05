@@ -1,10 +1,8 @@
   .activities-container {
     position: relative;
     width: 100%;
-    height: 110h;
     margin-bottom: 3vh;
 
-    overflow-x: show;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
 

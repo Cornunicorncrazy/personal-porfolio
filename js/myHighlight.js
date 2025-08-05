@@ -29,8 +29,8 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  const words = ["‎", "tìm tòi", "sáng tạo", "khám phá", "âm nhạc","công nghệ"];
-  const bgColors = ["black" , "#cceaf7", "#ffeaa7", "#fab1a0", "#b0ff9aff", "#ffc1e9ff"];
+  const words = ["tìm tòi", "sáng tạo", "khám phá", "âm nhạc","công nghệ"];
+  const bgColors = ["#cceaf7", "#ffeaa7", "#fab1a0", "#b0ff9aff", "#ffc1e9ff"];
   let index = 0;
 
   // Get its width in pixels
@@ -47,8 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
       // Update to the next word and color
       index = (index + 1) % words.length;
       highlightAdj.textContent = words[index];
-
-      console.log(`The width of the element is ${width}px`);
   
       // Update background-image to change the gradient color.
       // This avoids resetting other background properties like background-repeat.

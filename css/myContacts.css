@@ -1,8 +1,11 @@
 #contact {
-    height: 15vh;
-    text-align: center;
+    height: 20vh;
     background-color: black;
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.contact-item {
+    padding-top: 2vh;
 }

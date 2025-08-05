@@ -1,5 +1,4 @@
-/* Open Navigation button */
-#openNavButton {
+#openNavButton { /* Navigation bar */
     background-color: white;
     width: 100vw;
     height: 7vh;
@@ -16,13 +15,13 @@
 }
 
 #openNav:hover {
-    color: gray;
+    color: grey;
     transition: 0.3s ease-in-out;
 }
 
 
-/* The Overlay (background) */
-.overlay {
+
+.overlay { /* The Overlay (background) */
   /* Height & width depends on how you want to reveal the overlay (see JS below) */   
   height: 0%;
   width: 0%;
@@ -40,7 +39,7 @@
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 20%; /* 20% from the top */
+  top: 22%; /* 20% from the top */
   width: 100%; /* 100% width */
   text-align: center; /* Centered text/links */
   margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
@@ -61,9 +60,11 @@
 
 .overlay-content a {
     width: 20vw; /* Set a width for the links */
-    margin: 35px auto 35px auto;; /* Center the links */
+    margin: 20px auto 20px auto; /* Center the links */
     text-align: center; /* Center text */
     padding:20px 0 20px 0; /* Top and bottom padding */
+    border: 1px solid rgb(92, 92, 92);
+    box-shadow: 3px 3px 6px rgb(68, 68, 68);
 }
 
 .overlay-content a:hover, .overlay-content a:focus {
@@ -82,6 +83,7 @@
   padding: 0;
   right: 45px;
   font-size: 60px;
+  text-shadow: 1px 1px grey;
 }
 
 .overlay .closebtn:hover, .overlay .closebtn:focus {
