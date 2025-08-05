@@ -1,27 +1,23 @@
 #about{
   height: auto;
   padding: 2rem;
-  margin-top: 22vh;
-  margin-bottom: 10vh;
-  border-radius: 10px;
+  margin-top: 22vh; /* The margin-top is so that when the content load, the "good phrase" is shown in a pleasing position */
+  margin-bottom: 10vh; /* The margin-bottom is to seperate the "good phrase" from the description part visually */
 }
 
 #about h1 {
     text-align: center;
     font-size: 3rem;
-    font-family: "Merriweather", serif;
-    line-height: 1;
 }
 
 #about span {
-    color: black;
     padding: 0.05rem 0.5rem;
 }
 
 .highlight {
     background: linear-gradient(to left, black 100%, transparent 0%);
     background-size: 0% 100%; /* Set initial state for JS animation */
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* NEED TO ADD COMMENT */
 }
 
 #adjective {
@@ -31,17 +27,26 @@
     text-align: center;
 }
 
-#intro {
-    margin-bottom: 40vh;
+#intro { /* The "good phrase" */
+    margin-bottom: 45vh; /* Seperate the "good phrase" from quote */
+}
+
+#quote {
+    font-size: 1.2rem;
+    margin-bottom: 10vh;
 }
 
 #description {
     font-size: 1.2rem;
-    margin-top: 0rem;
     display: grid;
     grid-template-columns: 1.5fr 0.1fr 1fr;
 }
 
+#details-list {
+    padding-left: 1vw;
+    list-style: none;
+}
 
 @media screen and (max-width: 600px) {
+
 }

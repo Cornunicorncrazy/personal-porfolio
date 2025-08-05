@@ -1,7 +1,8 @@
 #contact {
-    height: 5vh;
+    height: 15vh;
     text-align: center;
-    background-color: lightpink;
+    background-color: black;
+    color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }

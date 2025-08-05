@@ -7,6 +7,7 @@ let scrollLeft;
 const endDrag = () => {
   isDown = false;
   slider.classList.remove('active');
+  slider.style.scrollSnapType = 'x mandatory'; // Enable scroll snapping when dragging ends
 
   // --- Center-Snapping Logic ---
   const sliderVisibleWidth = slider.clientWidth;
@@ -43,6 +44,7 @@ const endDrag = () => {
 slider.addEventListener('mousedown', (e) => {
   isDown = true;
   slider.classList.add('active');
+  slider.style.scrollSnapType = 'none'; // Disable scroll snapping while dragging
   startX = e.pageX - slider.offsetLeft;
   scrollLeft = slider.scrollLeft;
 });
