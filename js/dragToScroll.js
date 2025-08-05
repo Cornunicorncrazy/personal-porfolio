@@ -1,4 +1,4 @@
-const slider = document.querySelector('.items');
+const slider = document.querySelector('.activities-container');
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -12,7 +12,7 @@ const endDrag = () => {
   const sliderVisibleWidth = slider.clientWidth;
   const currentScrollCenter = slider.scrollLeft + sliderVisibleWidth / 2;
 
-  const items = Array.from(slider.querySelectorAll('.item'));
+  const items = Array.from(slider.querySelectorAll('.activity'));
   if (items.length === 0) return;
 
   // Find the item whose center is closest to the slider's center
