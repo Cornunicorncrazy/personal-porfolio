@@ -9,7 +9,7 @@
     white-space: nowrap;
 
     transition: all 0.2s;
-    transform: scale(0.98);
+    transform: scale(0.99);
     will-change: transform;
 
     user-select: none;

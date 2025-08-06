@@ -1,11 +1,59 @@
+#thanks {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    margin:0vh auto 3vh auto;
+}
+
+#thanks p {
+    padding-top: 40vh;
+    margin:0;
+}
+
+#copyright{
+    text-align: center;
+    color: rgb(43, 43, 43);
+    font-size: 0.8rem;
+}
+
 #contact {
-    height: 20vh;
+    height: 100%;
+    margin-bottom: 10vh;
     background-color: rgb(255 255 255 / 60%); /* Te 50% is the opacity */
     backdrop-filter: blur(10px); /* Adds a blur effect to the background */
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.contact-item {
-    padding-top: 2vh;
+#right-contact a{
+    text-decoration: none;
+}
+
+#right-contact div{
+    width: 42%;
+    margin: 0 0 10px 50%;
+    padding: 30px 30px 30px 30px; /* top right bottom left */
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 10px;
+    color: black;
+}
+
+#right-contact div:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+#left-contact img{
+    width: 45%;
+    height: 97%;
+    transform: scaleX(-1);
+    margin: 0 46% 10px 2%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border: 1px solid rgb(92, 92, 92);
+    border-radius: 10px;
+    color: black;
 }

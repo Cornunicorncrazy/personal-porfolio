@@ -28,12 +28,15 @@
 }
 
 #intro { /* The "good phrase" */
-    margin-bottom: 45vh; /* Seperate the "good phrase" from quote */
+    margin-bottom: 47vh; /* Seperate the "good phrase" from quote */
 }
 
 #quote {
-    font-size: 1.2rem;
-    margin-bottom: 10vh;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 30vh;
 }
 
 #description {
