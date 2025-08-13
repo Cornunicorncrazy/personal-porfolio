@@ -3,9 +3,9 @@
 IMAGE_DIR="images"
 
 # Check if ImageMagick is installed
-if ! command -v convert &> /dev/null
+if ! command -v magick &> /dev/null
 then
-    echo "ImageMagick 'convert' command not found. Please install ImageMagick."
+    echo "ImageMagick 'magick' command not found. Please install ImageMagick."
     echo "On Ubuntu/Debian: sudo apt-get install imagemagick webp"
     echo "On macOS: brew install imagemagick webp"
     echo "On Windows, you can download from imagemagick.org or use WSL."
@@ -26,7 +26,7 @@ for img_file in "$IMAGE_DIR"/*; do
                 echo "Converting $img_file to $webp_file"
                 # Use -quality 80 for a good balance of quality and file size
                 # For HEIC, ImageMagick needs libheif-examples or similar installed for full support
-                convert "$img_file" -quality 80 "$webp_file"
+                magick "$img_file" -quality 80 "$webp_file"
                 if [ $? -ne 0 ]; then
                     echo "Error converting $img_file. Skipping."
                 fi
