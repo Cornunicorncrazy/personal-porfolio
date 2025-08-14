@@ -35,6 +35,9 @@
 
 <body>
 
+<div id="loader"></div>
+<div id="main-content">
+
   <div id="myNav" class="overlay">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <div class="overlay-content">
@@ -183,6 +186,16 @@
     </div>
   </div>
   <p id="copyright">2025 © Pham Vu Dat. All rights reserved.</p>
+
+</div>
+<script>
+  var loader = document.getElementById("loader");
+  var mainContent = document.getElementById("main-content");
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+    mainContent.style.opacity = 1;
+  })
+</script>
 
 </body>
 </html>
